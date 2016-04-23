@@ -1,8 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-a {
+.navbar-header a {
   color: white;
+}
+
+.navbar-right a {
+  color: white
 }
 
 a:hover {
