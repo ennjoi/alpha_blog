@@ -1,3 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
