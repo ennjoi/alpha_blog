@@ -1,60 +1,22 @@
+$navbar-default-bg: #08088A;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.navbar-header a {
-  color: white;
-}
-
-.navbar-right a {
-  color: white
-}
-
-a:hover {
-  color: yellow;
-  text-decoration: none;
-}
-
-.row {
-  text-align: center;
-  font-family: Avenir;
-}
-
-.jumbotron {
-  font-family: Avenir;
-  width: 100%;
-  height: 500px;
-  background: #000 image-url('heroimage1.jpg') center center;
-  background-size: cover;
-}
-
-.navbar-header {
-  font-family: Avenir;
-  font-size: 20px;
-  text-decoration: none;
-  display: inline-block;
-  width: 200px;
-  padding: 8px;
+#logo {
+  float: left;
+  font-size: 1.7em;
   color: #fff;
-  border: 3px solid #fff;
-  text-align: center;
-  outline: none;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
-.navbar-right {
-  font-family: Avenir;
-  font-size: 20px;
-  text-decoration: none;
-  display: inline-block;
-  width: 200px;
-  padding: 8px;
+#logo:hover {
   color: #fff;
-  border: 3px solid #fff;
-  text-align: center;
-  outline: none;
+  text-decoration: none;
 }
 
-.emptyspace {
-  width: 100%;
-  height: 1000px;
-  border: 1px transparent;
+.center {
+  text-align: center;
 }
